@@ -1,0 +1,8 @@
+build:
+  image: mkrnic/drone-openwrt-builder
+  commands:
+    - cd /opt
+    - git clone --depth=1 https://github.com/makkrnic/openwrt-qemu-x86.git openwrt-qemu-x86
+    - cd openwrt-qemu-x86
+    - export FORCE_UNSAFE_CONFIGURE=1
+    - make
