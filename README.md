@@ -1,3 +1,9 @@
+# Build status
+
+[![Build Status](http://sartura-drone.makkrnic.com/api/badges/makkrnic/openwrt-qemu-x86/status.svg)](http://sartura-drone.makkrnic.com/makkrnic/openwrt-qemu-x86)
+
+---
+
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated
